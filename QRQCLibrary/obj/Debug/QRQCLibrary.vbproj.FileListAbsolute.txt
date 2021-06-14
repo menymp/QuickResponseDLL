@@ -1,0 +1,10 @@
+C:\Users\Propietario\Desktop\python sql examples\QRQCLibrary\QRQCLibrary\bin\Debug\QRQCLibrary.dll
+C:\Users\Propietario\Desktop\python sql examples\QRQCLibrary\QRQCLibrary\bin\Debug\QRQCLibrary.pdb
+C:\Users\Propietario\Desktop\python sql examples\QRQCLibrary\QRQCLibrary\bin\Debug\QRQCLibrary.xml
+C:\Users\Propietario\Desktop\python sql examples\QRQCLibrary\QRQCLibrary\obj\Debug\QRQCLibrary.vbprojAssemblyReference.cache
+C:\Users\Propietario\Desktop\python sql examples\QRQCLibrary\QRQCLibrary\obj\Debug\QRQCLibrary.Resources.resources
+C:\Users\Propietario\Desktop\python sql examples\QRQCLibrary\QRQCLibrary\obj\Debug\QRQCLibrary.vbproj.GenerateResource.cache
+C:\Users\Propietario\Desktop\python sql examples\QRQCLibrary\QRQCLibrary\obj\Debug\QRQCLibrary.vbproj.CoreCompileInputs.cache
+C:\Users\Propietario\Desktop\python sql examples\QRQCLibrary\QRQCLibrary\obj\Debug\QRQCLibrary.dll
+C:\Users\Propietario\Desktop\python sql examples\QRQCLibrary\QRQCLibrary\obj\Debug\QRQCLibrary.xml
+C:\Users\Propietario\Desktop\python sql examples\QRQCLibrary\QRQCLibrary\obj\Debug\QRQCLibrary.pdb

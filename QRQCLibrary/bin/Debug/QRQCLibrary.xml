@@ -1,0 +1,135 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+QRQCLibrary
+</name>
+</assembly>
+<members>
+<member name="T:QRQCLibrary.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:QRQCLibrary.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:QRQCLibrary.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:QRQCLibrary.QRQCConnector">
+ <summary>
+ Conector de QRQC para la administracion de respuesta rapida
+ menymp jun 2021
+ </summary>
+</member>
+<member name="P:QRQCLibrary.QRQCConnector.FilePath">
+ <summary>
+ Obtiene o establece la ruta de trabajo para los eventos de QRQC
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:QRQCLibrary.QRQCConnector.LocalScopeFilePath">
+ <summary>
+ Obtiene o establece la ruta de trabajo para los eventos de QRQC generados recientemente
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:QRQCLibrary.QRQCConnector.#ctor">
+ <summary>
+ Crea una nueva instancia de la clase QRQC conector
+ </summary>
+</member>
+<member name="M:QRQCLibrary.QRQCConnector.CreateNewQRQC(QRQCLibrary.QRQCDataContainer)">
+ <summary>
+ Crea una nueva instancia de un evento QRQC con la informacion necesaria para el procesamiento
+ </summary>
+ <returns>TRUE si se ha creado la instancia correctamente</returns>
+</member>
+<member name="M:QRQCLibrary.QRQCConnector.CloseQRQC(QRQCLibrary.QRQCDataContainer)">
+ <summary>
+ Cierra una instancia existente de QRQC
+ </summary>
+ <param name="QRQCEventInfo"></param>
+ <returns>TRUE si se realizo correctamente</returns>
+</member>
+<member name="M:QRQCLibrary.QRQCConnector.fnStrCnt(System.String,System.String)">
+ <summary>
+ Cuenta la cantidad de ocurrencias de una sub cadena en un string
+ </summary>
+ <param name="str"></param>
+ <param name="substr"></param>
+ <returns></returns>
+</member>
+<member name="T:QRQCLibrary.QRQCDataContainer">
+ <summary>
+ Contenedor de datos para un evento de QRQC
+ </summary>
+</member>
+<member name="P:QRQCLibrary.QRQCDataContainer.SerialNumber">
+ <summary>
+ numero serial bajo el cual se bloqueara los eventos relacionados
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:QRQCLibrary.QRQCDataContainer.DateEvent">
+ <summary>
+ Fecha de acontecimiento del evento
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:QRQCLibrary.QRQCDataContainer.Reason1">
+ <summary>
+ Razon 1
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:QRQCLibrary.QRQCDataContainer.Reason2">
+ <summary>
+ Razon 2
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:QRQCLibrary.QRQCDataContainer.Reason3">
+ <summary>
+ Razon 3
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:QRQCLibrary.QRQCDataContainer.Reason4">
+ <summary>
+ Razon 4
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:QRQCLibrary.QRQCDataContainer.Reason5">
+ <summary>
+ Razon 5
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:QRQCLibrary.QRQCDataContainer.CorrectiveAction">
+ <summary>
+ Accion correctiva
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:QRQCLibrary.QRQCDataContainer.ContentionAction">
+ <summary>
+ Accion de contencion
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:QRQCLibrary.QRQCDataContainer.OcurrenceCase">
+ <summary>
+ numero de identificador de evento, en caso de existir varios problemas
+ </summary>
+ <returns></returns>
+</member>
+</members>
+</doc>
